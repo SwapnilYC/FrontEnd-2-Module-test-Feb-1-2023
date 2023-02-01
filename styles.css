@@ -46,3 +46,10 @@
 #diceWthScore {
   margin: 1.5rem;
 }
+
+/* All messages display div */
+
+#msgWala{
+  margin: 2rem;
+  /* text-align: center; */
+}

@@ -34,16 +34,18 @@
 
     <!-- Form Group -->
     <div class="form-Group hidden" id="form">
-        <label for="name">Name: </label>
-        <input type="text" id="name" required>
+        <form action="/">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required>
 
-        <label for="userName">User Name: </label>
-        <input type="text" id="userName" required>
+            <label for="userName">User Name: </label>
+            <input type="text" id="userName" required>
 
-        <label for="email">Email: </label>
-        <input type="email" id="email" required><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" required><br><br>
 
-        <button id="sumbitBtn" type="submit" onclick="submitFormInfoFunction()">Submit</button>
+            <button id="sumbitBtn" type="submit" onclick="submitFormInfoFunction()">Submit</button>
+        </form>
     </div>
 
     <!-- Display Form info -->
@@ -53,6 +55,11 @@
         <p>Click on next Image to proceed further</p>
     </div>
 
+    <!-- MessageWala section -->
+    <div id="msgWala">
+        <h2 id="msgDispaly"></h2>
+    </div>
+    
     <!-- dice image with score and attempts -->
     <div class="diceWthScore hidden" id="diceWthScore">
         <p>Attempts left : <span id="attemptsLeft">0</span></p><br>
