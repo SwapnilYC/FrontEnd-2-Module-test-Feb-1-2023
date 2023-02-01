@@ -49,6 +49,7 @@ function submitFormInfoFunction() {
 
 // Image 2 Function : Display form info 
 function displayFormInfoFunction() {
+    console.log(formInfoArray)
     msg.classList.add('hidden');
     document.getElementById('info').innerText = `Name: ${formInfoArray[0].Name}, User Name: ${formInfoArray[0].UserName}, Email: ${formInfoArray[0].Email}`
     document.getElementById('displayInfo').classList.remove('hidden');
